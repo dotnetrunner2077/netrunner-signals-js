@@ -14,7 +14,7 @@ class TriangleSignalsDTO {
         this.price2 = price2.toFixed(6);
         this.pair3 = pair3;
         this.price3 = price3.toFixed(6);
-        this.maxProfit = `${(maxProfit * 100).toFixed(2)}%`;
+        this.maxProfit = `${(maxProfit).toFixed(4)}%`;
     }
 }
 
