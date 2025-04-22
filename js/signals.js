@@ -1,6 +1,6 @@
 class TriangleSignalsDTO {
-    constructor({ fecha, pair1, price1, pair2, price2, pair3, price3, maxProfit }) {
-        this.fecha = new Date(fecha).toLocaleString('es-ES', {
+    constructor({ date, pair1, price1, pair2, price2, pair3, price3, maxProfit }) {
+        this.date = new Date(date).toLocaleString('es-ES', {
             day: '2-digit',
             month: '2-digit',
             year: 'numeric',
